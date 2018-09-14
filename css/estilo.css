@@ -1,0 +1,103 @@
+/* Estilos formulario del dialogo-------------------------------------------- */
+textarea {
+  resize: none;
+  margin-top: 5px !important;
+  margin-bottom: 20px;
+}
+
+textarea, #title {
+  width: 95%;
+  background-color: #00061a;
+  border: none;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+
+#guardar, #opener {
+  padding: 5px 10px 5px 10px;
+  background-image: linear-gradient(gray, black);
+  color: #fff !important;
+  border-radius: 5px;
+  border: none;
+}
+/*----------------------------------------------------------------------------*/
+
+/* Estilos apariencia dialogo-------------------------------------------------*/
+#dialog {
+  display:none;
+  clear: both;
+}
+
+.ui-dialog {
+  background-color: #006080 !important;
+  border: none !important;
+  border-radius: 20px 0 20px 20px !important;
+  padding-right: 0px !important;
+}
+
+.ui-dialog-titlebar {
+  font-family: Verdana, Geneva, sans-serif;
+  width: 30%;
+  position: relative;
+  top: -35px;
+  right: 0px;
+  float: right;
+  margin: 0 !important;
+  background-color: #006080 !important;
+  border: 0 !important;
+  border-radius: 20px 20px 0 0 !important;
+}
+
+.ui-button {
+  border-radius: 50% !important;
+}
+/*----------------------------------------------------------------------------*/
+
+/* Estilos de la tabla--------------------------------------------------------*/
+table, td, th {
+  text-align: left;
+}
+
+th {
+  color: #66ccff;
+  padding-bottom: 5px !important;
+}
+
+td {
+  color: #fff;
+  padding-top: 5px !important;
+}
+
+table {
+  display: none;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+
+th, td {
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+thead tr {
+  background: #006080 !important;
+}
+
+.editable {
+  min-width: 100px;
+}
+
+.description {
+  min-width: 300px;
+}
+
+tr:nth-child(even) {background: #006080}
+tr:nth-child(odd) {background: #00334d}
+
+/*----------------------------------------------------------------------------*/

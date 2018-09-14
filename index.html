@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FrontEndVSN</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="  https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <div>
+    <button id="opener">New Element</button>
+  </div>
+  <div>
+    <table id="tablaContenido">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Technical Information</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!--
+        Se crea una nueva fila al añadir un nuevo elemento desde el dialogo.
+      -->
+    </tbody>
+  </table>
+</div>
+
+<div id="dialog">
+  <input id="title" type="text" placeholder="Title"/>
+  <textarea id="description" type="text" rows="3" placeholder="Description"></textarea>
+  <br />
+  <div style="text-align:right">
+    <input id="guardar" type="button" value="Guardar"/>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="js/index.js"></script></script>
+</html>
