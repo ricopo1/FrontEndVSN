@@ -30,7 +30,8 @@ $("#dialog").dialog({
   },
   hide: {
     duration: 1000
-  }
+  },
+  close: function( event, ui ) {$("#dialog").find("input[type=text], textarea").val("");} // Vacía los campos del dialog
 });
 
 // Se abre el dialog al hacer click en el opener
